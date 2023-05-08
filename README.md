@@ -15,16 +15,15 @@ There is a slowdown in new car sales and that could mean that the demand is shif
 ## Files:
 Data has been split into two groups and provided in the module:
 
-*Training set : The training set is used to build your machine learning model. For the training set, we provide the price of a car (also known as the variable price) for each instance.
+* Training set : The training set is used to build your machine learning model. For the training set, we provide the price of a car (also known as the variable price) for each instance.
 
-*Test set : The test set should be used to see how well your model performs on unseen data. For the test set, it is your job to predict the price of the car (price) for each instance.
+* Test set : The test set should be used to see how well your model performs on unseen data. For the test set, it is your job to predict the price of the car (price) for each instance.
 
 ## Metric:
 RMSE - root mean squared error
 The measure of accuracy will be RMSE. The predicted price for each car in the test dataset will be compared with the actual price to calculate the RMSE value of the entire prediction. The lower the RMSE value, the better the model will be.
 
 ## Submission Process:
-You are to submit a csv file with exactly 5615 entries plus a header row. The file should have exactly two columns ‘Id’ and ‘Price’ of the car
-Please note that file should be in a csv format as shown in sample_submission.csv
-Please ensure that the submission file contains all the test instances.
-The files for the model development and deployment should be submitted via Olympus.
+* You are to submit a csv file with exactly 5615 entries plus a header row. The file should have exactly two columns ‘Id’ and ‘Price’ of the car
+* Please note that file should be in a csv format as shown in sample_submission.csv
+* Please ensure that the submission file contains all the test instances.
