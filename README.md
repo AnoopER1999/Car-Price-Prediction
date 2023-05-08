@@ -22,8 +22,3 @@ Data has been split into two groups and provided in the module:
 ## Metric:
 RMSE - root mean squared error
 The measure of accuracy will be RMSE. The predicted price for each car in the test dataset will be compared with the actual price to calculate the RMSE value of the entire prediction. The lower the RMSE value, the better the model will be.
-
-## Submission Process:
-* You are to submit a csv file with exactly 5615 entries plus a header row. The file should have exactly two columns ‘Id’ and ‘Price’ of the car
-* Please note that file should be in a csv format as shown in sample_submission.csv
-* Please ensure that the submission file contains all the test instances.
